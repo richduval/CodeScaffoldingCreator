@@ -1,0 +1,10 @@
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\bin\Debug\CreateScaffolding.exe.config
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\bin\Debug\CreateScaffolding.exe
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\bin\Debug\CreateScaffolding.pdb
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.csproj.AssemblyReference.cache
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.Properties.Resources.resources
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.csproj.GenerateResource.cache
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.csproj.CoreCompileInputs.cache
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.exe
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.pdb
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.Form1.resources
