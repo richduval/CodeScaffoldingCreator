@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CreateScaffolding.exe" size="11168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CreateScaffolding.exe" size="12192">
       <assemblyIdentity name="CreateScaffolding" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>u3tAN9hdeXssn22+4+cDc+0qcKHfdz8yvAWfmdxlXQY=</dsig:DigestValue>
+        <dsig:DigestValue>1elY1kzM35GIdML33e6doRKW3W0lNcZtG+i82B8RhGU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

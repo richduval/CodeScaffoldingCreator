@@ -31,15 +31,19 @@ namespace CreateScaffolding
 
                 var csvinput = txtcsvinput.Split(',');
                 var scaffoldingtemplate = txtScaffoldingCode.Text;
+                var scaffoldingtemplate2 = txtScaffoldingCode2.Text;
                 string results = "";
+                string results2 = "";
 
-                foreach(var item in csvinput)
+                foreach (var item in csvinput)
                 {
                     results += scaffoldingtemplate.Replace("{0}", item.Trim());
+                    results2 += scaffoldingtemplate2.Replace("{0}", item.Trim());
                 }
                 txtResult.Text = results;
+                txtResult2.Text = results2;
 
-                Debug.WriteLine("debug");
+                //Debug.WriteLine("debug");
             }
 
             catch(Exception ex)
@@ -64,8 +68,9 @@ namespace CreateScaffolding
             var newwidth = frmcontrol.Width - frmmargin;
             txtCSVinput.Width = newwidth;
             txtScaffoldingCode.Width = newwidth;
+            txtScaffoldingCode2.Width = newwidth;
             txtResult.Width = newwidth;
+            txtResult2.Width = newwidth;
         }
-
     }
 }
