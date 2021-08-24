@@ -13,6 +13,7 @@ namespace CreateScaffolding
 {
     public partial class Form1 : Form
     {
+        private int frmmargin = 45;
         public Form1()
         {
             InitializeComponent();
@@ -22,7 +23,13 @@ namespace CreateScaffolding
         {
             try
             {
-                var csvinput = txtCSVinput.Text.Split(',');
+                var txtcsvinput = txtCSVinput.Text;
+                if (cbReplaceBrackets.Checked)
+                {
+                    txtcsvinput = txtcsvinput.Replace("[", "").Replace("]", "");
+                }
+
+                var csvinput = txtcsvinput.Split(',');
                 var scaffoldingtemplate = txtScaffoldingCode.Text;
                 string results = "";
 
@@ -40,5 +47,25 @@ namespace CreateScaffolding
                 Debug.WriteLine(ex.Message);
             }
         }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            resizeTextBoxes(sender);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            resizeTextBoxes(sender);
+        }
+
+        private void resizeTextBoxes(object sender)
+        {
+            Control frmcontrol = (Control)sender;
+            var newwidth = frmcontrol.Width - frmmargin;
+            txtCSVinput.Width = newwidth;
+            txtScaffoldingCode.Width = newwidth;
+            txtResult.Width = newwidth;
+        }
+
     }
 }

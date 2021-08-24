@@ -7,3 +7,8 @@ C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Release\Cre
 C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Release\CreateScaffolding.csproj.CoreCompileInputs.cache
 C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Release\CreateScaffolding.exe
 C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Release\CreateScaffolding.pdb
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Release\CreateScaffolding.csproj.AssemblyReference.cache
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\bin\Release\CreateScaffolding.exe.manifest
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\bin\Release\CreateScaffolding.application
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Release\CreateScaffolding.exe.manifest
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Release\CreateScaffolding.application

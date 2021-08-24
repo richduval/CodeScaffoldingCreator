@@ -8,3 +8,7 @@ C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\Creat
 C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.exe
 C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.pdb
 C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.Form1.resources
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\bin\Debug\CreateScaffolding.exe.manifest
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\bin\Debug\CreateScaffolding.application
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.exe.manifest
+C:\Users\rduval\source\repos\CreateScaffolding\CreateScaffolding\obj\Debug\CreateScaffolding.application
