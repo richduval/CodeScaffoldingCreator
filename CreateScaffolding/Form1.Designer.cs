@@ -41,6 +41,7 @@ namespace CreateScaffolding
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtResult2 = new System.Windows.Forms.TextBox();
+            this.btnCreateSpecial = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtCSVinput
@@ -164,11 +165,22 @@ namespace CreateScaffolding
             this.txtResult2.TabIndex = 10;
             this.txtResult2.WordWrap = false;
             // 
+            // btnCreateSpecial
+            // 
+            this.btnCreateSpecial.Location = new System.Drawing.Point(868, 402);
+            this.btnCreateSpecial.Name = "btnCreateSpecial";
+            this.btnCreateSpecial.Size = new System.Drawing.Size(147, 31);
+            this.btnCreateSpecial.TabIndex = 12;
+            this.btnCreateSpecial.Text = "Create Special";
+            this.btnCreateSpecial.UseVisualStyleBackColor = true;
+            this.btnCreateSpecial.Click += new System.EventHandler(this.btnCreateSpecial_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 884);
+            this.Controls.Add(this.btnCreateSpecial);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtResult2);
             this.Controls.Add(this.label4);
@@ -205,6 +217,7 @@ namespace CreateScaffolding
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtResult2;
+        private System.Windows.Forms.Button btnCreateSpecial;
     }
 }
 

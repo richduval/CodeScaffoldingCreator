@@ -72,5 +72,44 @@ namespace CreateScaffolding
             txtResult.Width = newwidth;
             txtResult2.Width = newwidth;
         }
+
+        private void btnCreateSpecial_Click(object sender, EventArgs e)
+        {
+            var txtcsvinput = txtCSVinput.Text;
+            var csvinput = txtcsvinput.Split(',');
+
+            var scaffoldingtemplate2 = txtScaffoldingCode2.Text;
+            string results2 = "";
+
+            foreach (var litem in csvinput)
+            {
+                string item = litem.Trim();
+
+                // revisionID AS VV_revisionID
+                if (item.ToLower().Contains(" as "))
+                {
+                    
+                    var startofAS = item.ToLower().IndexOf(" as ");
+                    int itemlength = startofAS;
+                    if(itemlength < 0) { itemlength = 0; }
+
+                    var oldtablecolumnname = item.Substring(0, itemlength);
+                    var newtablecolumnname = String.Concat("[", oldtablecolumnname.Replace("_", " "), "]");
+                    var results = String.Concat(newtablecolumnname, item.Substring(startofAS, item.Length - itemlength));
+                    //var results = item.Replace(oldtablecolumnname, newtablecolumnname);
+
+                    results2 += scaffoldingtemplate2.Replace("{0}", results);
+                }
+                else
+                {
+                    results2 += scaffoldingtemplate2.Replace("{0}", item);
+                }
+
+                
+            }
+            
+            
+            txtResult2.Text = results2;
+        }
     }
 }
